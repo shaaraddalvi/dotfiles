@@ -1,8 +1,8 @@
 #!/bin/bash
 #
 
-git config --global user.name "Ryan Simmen"
-git config --global user.email "ryansimmen@github.com"
+git config --global user.name "Shaarad Dalvi"
+git config --global user.email "shaaraddalvi@github.com"
 git config --global pager.branch false
 git config --global push.default current
 

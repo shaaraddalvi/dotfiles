@@ -15,6 +15,9 @@ ln -s ~/.dotfiles/.vimrc ~/
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 vim +'PlugInstall --sync' +qall
 
+# dvtm
+sudo apt install -y dvtm
+
 # zsh 
 if [ "$SHELL" != "/usr/bin/zsh" ]; then
     sudo apt install -y zsh

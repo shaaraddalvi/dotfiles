@@ -18,6 +18,9 @@ vim +'PlugInstall --sync' +qall
 # dvtm
 sudo apt install -y dvtm
 
+# ranger
+sudo apt install -y ranger
+
 # zsh 
 if [ "$SHELL" != "/usr/bin/zsh" ]; then
     sudo apt install -y zsh
